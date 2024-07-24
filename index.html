@@ -1,0 +1,97 @@
+<html>
+    <head>
+        <title> sign up </title>
+        <link rel="stylesheet" href="style.css">
+        </head>
+        <body>
+            
+
+            <h1> FORMS</h1>
+
+            <form action="/submit">
+
+
+            <label for="name">Fast Name </label>
+            <input type="text" name="name" placeholder="Enter your Fast Name" id="name">
+
+            <br><br><br>
+    
+
+            <label for="name">Last Name </label>
+            <input type="text" name="name" placeholder="Enter your Last Name" id="name">
+
+            <br><br><br>
+
+            <label for="date of birth">Bate Of Birth:</label>
+            <select name="date of birth" id="date of birth">
+                <option value="Date">Date</option>
+                <option value=""></option>
+            </select>
+
+            <select name="date of birth" id="date of birth">
+            <option value="month">month</option>
+            </select>
+
+            <select name="date of birth" id="date of birth">
+            <option value="month">year</option>
+            </select>
+            
+            <br><br><br>
+            
+
+            <label for="male">Male:</label>
+            <input type="radio" name="gender"  id="male" value="male">
+
+            <label for="female"> Female:</label>
+            <input type="radio" name="gender"  id="female" value="female">
+
+            <br><br><br>
+
+            <label for="country">Country:</label>
+            <select name="country" id="country">
+                <option value="india">India</option>
+                <option value="argentina">Argentina</option>
+                <option value="spain">Spain</option>
+            </select>
+
+            <br><br><br>
+
+            <label for="email">E-mail </label>
+            <input type="text" name="email" placeholder="Enter your email" id="email">
+
+            <br><br><br>
+
+            <label for="">Phone </label>
+            <input type="text" name="phone" placeholder="Enter your phone number" id="phone">
+
+            <br><br><br>
+
+
+            <label for="name">Password </label>
+            <input type="password" name="name"  id="name"> 
+
+            <br><br><br>
+
+            <label for="name"> Confirm Password </label>
+            <input type="password" name="name"  id="name"> 
+
+            <br><br><br>
+
+
+
+            <label for="agree"> I Agree to the Terms of Use</label>
+            <input type="checkbox" name="agree" id="agree" value="agreed">
+
+            <br><br><br>
+
+            <input type="submit">
+            <button type="button" onclick="cancelAction()">Cancel</button>
+
+        </form>
+        <script>
+            function cancelAction(){
+                window.location.href='index.html';
+            }
+        </script>
+     </body>   
+    </html>
